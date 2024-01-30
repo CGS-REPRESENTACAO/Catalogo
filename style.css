@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+
+body {
+    background-image: url(./fotos/Leonardo_Diffusion_XL_plano_de_fundo_para_site_de_vendas_de_pi_0.jpg);
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.bar {
+    background-color: rgb(21, 21, 21);
+    overflow: hidden;
+    border-radius: 25px; /* Adicionando borda arredondada */
+}
+
+.bar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.bar li {
+    display: block;
+    float: left;
+}
+
+.bar li a {
+    display: block;
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    border-radius: 8px;
+    margin-left: 0;
+}
+
+
+
+.bar li{
+    margin-left: 0px;
+}
+
+.cont {
+    border-radius: 15px;
+    background-color: rgb(28, 28, 28);
+    text-align: center;
+    font-size: 25px;
+    color: #CCCCCC;
+    padding: 20px;
+    margin: 5px;
+}
+
+.empresas {
+    text-align: center;
+    margin-top: 10px;
+    background-color: rgb(28, 28, 28);
+    border-radius: 15px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.empresas h3 {
+    color: #CCCCCC;
+    font-family: 'Roboto', sans-serif;
+}
+
+.empresas ul {
+    padding: 0;
+}
+
+.empresas li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.empresas img {
+    height: auto;
+    width: 100%;
+    max-width: 150px;
+    border-radius: 10px;
+}
+
+.principal img, .principal-for img, .principal-jg img {
+    border-radius: 12px;
+    width: 100%;
+    max-width: 1000px;
+    height: auto;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+#formigres{
+    height: 100px;
+    width: 150px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .bar li {
+        float: none;
+        width: 100%;
+    }
+
+    .bar li a {
+        text-align: center;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .empresas li {
+        display: block;
+        margin: 0;
+        text-align: center;
+    }
+
+    .empresas img {
+        max-width: 100%;
+        margin-top: 10px;
+    }
+
+    .principal img, .principal-for img, .principal-jg img {
+        max-width: 100%;
+    }
+
+    #titulo{
+        font-size: 35px;
+        padding: 1px;
+    }
+
+
+}
+
+.principal-for img, .principal-jg img{
+    margin-top: 15px;
+}
+
+#formigres:hover{
+    box-shadow: 3px 3px 3px black;
+}
+    
